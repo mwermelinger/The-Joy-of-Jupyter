@@ -1,6 +1,8 @@
 # The Joy of Jupyter
 
-This repository is an introduction to Jupyter notebooks, a widely used interactive computing environment that is easy enough for school children and powerful enough for professional scientists.
+This repository is an introduction to Jupyter notebooks, a widely used 
+interactive computing environment that is easy enough for 15 year old 
+school children and powerful enough for professional scientists.
 
 Although Jupyter notebooks can used with several programming languages,
 all examples in this repository are in Python. 
@@ -14,7 +16,7 @@ it is most widely used with: Julia, Python and R.
 Make sure you are reading this text on the [home page of the repository](http://github.com/mwermelinger/The-Joy-of-Jupyter). 
 Otherwise certain sentences won't make sense.
 
-## Introduction
+## 1 Introduction
 
 A Jupyter notebook is a rich, interactive, computing environment.
 It can include a mix of explanatory text, live code, and the code's output.
@@ -30,10 +32,10 @@ but also tables and charts, all in one single integrated document.
 
 Now that you've seen a concrete example of a notebook, 
 read [_What is the Jupyter Notebook?_](https://github.com/jupyter/notebook/blob/master/docs/source/examples/Notebook/What%20is%20the%20Jupyter%20Notebook.ipynb), 
-a brief introduction by the Jupyter team of 
+a brief introduction by the Jupyter team to 
 the main terminology and features of notebooks.
 
-## These notebooks
+## 2 These notebooks
 
 The notebooks in this repository are as follows.
 
@@ -72,7 +74,7 @@ To download them to your laptop or desktop (I haven't tried on a tablet):
 Next you need to choose which environment to use for working with notebooks.
 You have several choices.
 
-## Try Jupyter!
+## 3 Try Jupyter!
 
 The simplest and quickest way of seeing Jupyter notebooks in action, 
 without installing any software or creating a user account 
@@ -90,7 +92,7 @@ _Try Jupyter!_ is meant for quick exploration of Jupyter notebooks
 in short sessions. It is not meant for regular work on notebooks.
 There are other, better suited environments for that.
 
-### Uploading the files
+### 3.1 Uploading the files
 
 Now that you're aware of the advantages and disadvantages of this environment,
 go to the [Try Jupyter!](http://try.jupyter.org) website. 
@@ -101,9 +103,8 @@ Click on the 'Upload' button in the upper right corner of that site.
 You will get the usual file picker dialog on your machine. 
 Go to the downloads folder, then to the downloaded sub-folder. 
 Select one of the _Joy of Jupyter_ notebooks and any required auxiliary file. 
+Don't select the turtle graphics notebook: it won't work in _Try Jupyter!_.
 Click on the 'OK' or 'Choose' button of the file dialog. 
-Note that you shouldn't select the turtle graphics notebook: 
-unfortunately it doesn't work in _Try Jupyter!_.
 
 The notebook and auxiliary file you selected will now appear 
 at the start of the list of files, with blue 'Upload' buttons. 
@@ -117,7 +118,7 @@ so that the most recent files are easier to spot, at the start of the list.
 You can click the 'Name' button once or twice to list the files
 in ascending or descending alphabetical order.
 
-### Working with notebooks
+### 3.2 Working with notebooks
 
 With the files uploaded, you can start working on the notebook.
 
@@ -140,9 +141,28 @@ If you forgot to halt any notebooks, they will be listed in green.
 Click the checkbox next to them. 
 A new menu appears above the file list, with a 'Shutdown' button. Click it.
 
-### Downloading files
+### 3.3 Downloading files
 
 As mentioned earlier, if you wish to keep a copy of a notebook you changed, 
 you must download it. When you're back in the dashboard, 
 click the checkbox to the left of the file you wish to download.
 A new 'Download' button appears above the file list. Click on it.
+
+## 4 Other environments
+
+If you have a couple of spare gigabytes on your hard disk,
+you should install [Anaconda](https://www.anaconda.com/download). 
+It's freely available for Linux, Mac and Windows.
+It includes Python, Jupyter, and over hundred libraries.
+There are two variants of Anaconda: with Python 2 and with Python 3.
+Make sure you install the latter. Python 2 is no longer developed.
+Once you have installed Anaconda, launch the Anaconda Navigator.
+You will see list of installed applications, one being Jupyter Notebook.
+Click the 'Launch' button below it. 
+
+If you don't want or can't install software, there are other web-based
+providers, like [CoCalc](http://cocalc.com), 
+[Microsoft Azure Notebooks](https://notebooks.azure.com), 
+and [Anaconda Cloud](https://anaconda.org).
+All of these require to set up a user account, 
+so that your notebooks can be saved between sessions.
