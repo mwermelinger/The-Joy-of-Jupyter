@@ -48,11 +48,8 @@ This notebook requires the `Fast_Talkin.wav` file.
 It will generate two further sound files; 
 you can delete them after using the notebook.
 
-**`turtle.ipynb`** shows how to draw turtle graphics from a notebook. 
-It only uses Python's built-in turtle library. 
-The graphics themselves appear in a separate window, 
-as notebooks can only include HTML. 
-This notebook includes a simple example of fractal tree drawing.
+**`complexity.ipynb`** shows how to measure the run-time of
+Python code and thereby empirically obtain the complexity of an algorithm.
 
 **`tuberculosis.ipynb`** is a very simple example of reproducible research. 
 It shows how to load data from an Excel spreadsheet, 
@@ -60,6 +57,12 @@ analyse and visualise the data, and write up the conclusions.
 This notebook uses the pandas library and requires the `WHO_POP_TB.xls` file, 
 which contains World Health Organisation data about 
 the world's population and deaths due to tuberculosis. 
+
+**`turtle.ipynb`** shows how to draw turtle graphics from a notebook. 
+It only uses Python's built-in turtle library. 
+The graphics themselves appear in a separate window, 
+as notebooks can only include HTML. 
+This notebook includes a simple example of fractal tree drawing.
 
 As mentioned before, if you click on any notebook name at the top of this page,
 you will see a static rendering of that notebook. 
