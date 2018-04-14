@@ -39,14 +39,8 @@ the main terminology and features of notebooks.
 
 The notebooks in this repository are as follows.
 
-**`audio.ipynb`** shows how to play, manipulate and generate music 
-in a notebook.
-It uses the IPython audio player, 
-the SciPy and NumPy libraries to read, transform and write sound files, 
-and the matplotlib library to show the waveforms. 
-This notebook requires the `Fast_Talkin.wav` file. 
-It will generate two further sound files; 
-you can delete them after using the notebook.
+The `audio` folder contains notebooks that generate, manipulate and play music.
+Click on the folder name in the list above to see their description.
 
 **`complexity.ipynb`** shows how to measure the run-time of
 Python code and thereby empirically obtain the complexity of an algorithm.
