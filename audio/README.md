@@ -13,6 +13,13 @@ Physics, Music, and Music Technology classes,
 or to enrich Maths and Computing classes with audio examples.
 
 You may wish to use headphones and keep the volume low with these notebooks.
+They all have the generated sounds embedded, i.e. stored within the notebook,
+so that you can hear them even without installing Jupyter.
+However, GitHub doesn't support that feature.
+If you click on the file names in the list above,
+you will only be able to read the notebooks. 
+If you also want to hear them, go
+[here](http://nbviewer.jupyter.org/github/mwermelinger/The-Joy-of-Jupyter/tree/master/audio/).
 
 The notebooks in this folder are as follows.
 
