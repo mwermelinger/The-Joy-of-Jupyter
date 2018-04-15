@@ -39,7 +39,7 @@ the main terminology and features of notebooks.
 
 The notebooks in this repository are as follows.
 
-The `audio` folder contains notebooks that generate, manipulate and play music.
+The **`audio`** folder has notebooks that generate, manipulate and play music.
 Click on the folder name in the list above to see their description.
 
 **`complexity.ipynb`** shows how to measure the run-time of
