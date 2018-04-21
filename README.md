@@ -48,6 +48,10 @@ Click on the folder name in the list above to see their description.
 **`complexity.ipynb`** shows how to measure the run-time of
 Python code and thereby empirically obtain the complexity of an algorithm.
 
+**`interaction.ipynb`** shows how to quickly create interactive interfaces
+with sliders, checkboxes and dropdown menus. You won't see them when reading
+this notebook as a static web page.
+
 **`tuberculosis.ipynb`** is a very simple example of reproducible research. 
 It shows how to load data from an Excel spreadsheet, 
 analyse and visualise the data, and write up the conclusions. 
